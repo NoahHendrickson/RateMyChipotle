@@ -21,9 +21,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginRight: 35,
     marginLeft: 10,
-    shadowColor: '#585B56',
-    shadowRadius: 15,
-    shadowOpacity: .5,
+    // shadowColor: '#352208',
+    // shadowRadius: 15,
+    // shadowOpacity: .5,
   },
 })
 

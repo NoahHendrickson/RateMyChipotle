@@ -6,7 +6,7 @@ export default function Input() {
     <View style={styles.searchContainer}>
        <TextInput
         placeholderTextColor={'grey'}
-        placeholder='search by city' style={styles.searchBar} />
+        placeholder='Search By City' style={styles.searchBar} />
         <AppButton />
     </View>
   )
@@ -17,6 +17,9 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     marginTop: 35,
+    shadowColor: '#352208',
+    shadowRadius: 20,
+    shadowOpacity: .5,
   },
   searchBar: {
     flex: 1,
@@ -26,5 +29,8 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     marginRight: 10,
     marginLeft: 35,
+    // shadowColor: '#352208',
+    // shadowRadius: 15,
+    // shadowOpacity: .5,
   },
 });
